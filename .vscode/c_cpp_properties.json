@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "C:/CTOOLS/mingw32/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerArgs": [
+        ""
+      ]
+    },
+    {
+      "name": "STM32",
+      "includePath": [
+        "Core/Inc",
+        "Drivers/CMSIS/Device/ST/STM32L4xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32L4xx_HAL_Driver/Inc",
+        "Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
+      ],
+      "defines": [
+        "STM32L476xx",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "C:\\PROGRAM FILES (X86)\\GNU ARM EMBEDDED TOOLCHAIN\\10 2021.10\\BIN\\ARM-NONE-EABI-GCC.EXE"
+    }
+  ],
+  "version": 4
+}

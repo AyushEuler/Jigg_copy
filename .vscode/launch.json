@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "./Build/MarvelTestingJig.elf",
+            "name": "Debug TestingJig",
+            "request": "launch",
+            "type": "cortex-debug",
+            "showDevDebugOutput": true,
+            "servertype": "openocd",
+            "runToMain": true,
+            "svdFile": "./STM32L4x6.svd",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        },
+    ]
+}
